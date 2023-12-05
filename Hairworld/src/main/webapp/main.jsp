@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=utf-8"
+f<%@ page language="java" contentType="text/html; charset=utf-8"
     pageEncoding="utf-8"%>
 <!DOCTYPE html>
 <html>
@@ -40,7 +40,7 @@
   outline-color: var(--darkreader-inline-outline) !important;
 }
 [data-darkreader-inline-stopcolor] {
-  stop-color: var(--darkreader-inline-stopcolor) !important;
+  stop-color: var(--darkreader-inline-stopcolor) !imporztant;
 }</style><style class="darkreader darkreader--variables" media="screen">:root {
    --darkreader-neutral-background: #212222;
    --darkreader-neutral-text: #eae3d9;
@@ -137,6 +137,7 @@
           <p class="loading">AI가 당신의 얼굴형을 분석중입니다.</p>
         </div>
         <p class="result-message"></p>
+        <p class="result-image"></p>
         <div id="label-container" class="d-flex flex-column justify-content-around"></div>
 
         <!-- Go to www.addthis.com/dashboard to customize your tools -->
